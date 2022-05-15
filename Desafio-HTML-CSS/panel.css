@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 0;*/
+    text-decoration: none;
+}
+
+:root {
+    /* 1 rem = 16px (User Agent) = 100% (User Agent) */
+    /* 62.5% = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+}
+
+section#secMenu {
+    width: 20%;
+    border-right: .1rem solid rgba(0, 0, 0, .3);
+    flex-direction: column;
+}
+
+section#secMenu>a.menu {
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, .9);
+    font-size: 1.8rem;
+    margin-top: .7rem;
+}
+
+section#secMenu>a.menu>span {
+    margin: 0 .5rem 0 .7rem;
+}

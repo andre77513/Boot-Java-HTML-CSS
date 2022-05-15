@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FlashJS</title>
+</head>
+
+<body>
+    <main>
+        <section id="secForm">
+            <fieldset>
+                <form id="formAction" action="./panel.html" method="">
+                    <div id="divUso">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" id="usuario" class="inpForm" name="usuario" required placeholder="usuário"
+                            oninvalid="this.setCustomValidity('Campo requerido')"
+                            onchange="try{setCustomValidity('')}catch(e){}" title="Campo usuário" value="">
+                    </div>
+                    <div id="divLog">
+                        <label for="login">Senha</label>
+                        <input type="password" id="login" class="inpForm" name="login" required placeholder="password"
+                            oninvalid="this.setCustomValidity('Campo requerido')"
+                            onchange="try{setCustomValidity('')}catch(e){}" title="Campo senha" value="">
+                    </div>
+                    <button type="submit" id="btn">ENTRAR</button>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>
