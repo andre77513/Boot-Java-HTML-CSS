@@ -1,0 +1,5 @@
+1. Como é possível descobrir qual a fonte padrão de renderização do navegador?
+R: Através do DEV TOOL do navegador.
+
+2. É verdade que quando alteramos um CSS diretamente no DEV TOLL automaticamente alteramos o arquivo CSS?
+R: Não. Os arquivos só são modificados para renderização no navegador, não sofrendo alteração no seu código fonte.

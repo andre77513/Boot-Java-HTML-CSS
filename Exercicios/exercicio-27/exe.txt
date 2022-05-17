@@ -1,0 +1,11 @@
+1. Qual a diferença da  unidade de medida EM e REM?
+R: A EM procura a unidade de medida do elemento pai, exceto as propriedades de margin, padding e bottom.
+A REM procura a unidade do elemento root(html).
+
+2. Como é criada uma variável no CSS? Dê um exemplo.
+R: Geralmente é criada no elemento root. 
+Exemplo:  
+:root{
+    --cor-red: red;
+    --font: 50px;
+}
